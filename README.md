@@ -17,7 +17,7 @@ The project is divided into eight steps.
 ## Step 8. Test the Algorithm
 
 
-### Step 1. Import Datasets <a name="Step 1. Import Datasets"></a>
+### Step 1. Import Datasets<a name="Step 1. Import Datasets"></a>
 The data is imported as a dataset of dog photos in the first stage. The data set is divided into three categories using the scikit-learn library's load-files function: train-files, valid-files, test-files, which are numpy arrays containing image file paths, and train-targets, valid-targets and test-targets, which are numpy arrays containing on-hot-encoded classification labels for 133 different dog breeds. And in the following, a dataset of human images is imported where the file paths are stored in the numpy array named human-files.
 
 ## Step 2. Detect Humans
