@@ -1,4 +1,4 @@
-## dog_breed_classifier
+## dog breed classifier
 This work is a capstone project for the Udacity Data Science Nano Degree. A Convolutional Neural Networks (CNN) is trained to create an algorithm for recognizing a dog's breed from an input image. This classifier method determines if a dog or a human is present in the image, then distinguishes the dog's breed if a dog is there and returns the resembling dog breed for that person if a human is detected. Isn't that amusing!?
 The project is divided into eight steps.
 
