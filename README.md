@@ -1,8 +1,11 @@
-# dog_breed_classifier
+## dog_breed_classifier
 This work is a capstone project for the Udacity Data Science Nano Degree. A Convolutional Neural Networks (CNN) is trained to create an algorithm for recognizing a dog's breed from an input image. This classifier method determines if a dog or a human is present in the image, then distinguishes the dog's breed if a dog is there and returns the resembling dog breed for that person if a human is detected. Isn't that amusing!?
 The project is divided into eight steps.
 
-## Step 1. Import Datasets
+
+
+
+## [Step 1. Import Datasets](#Step 1. Import Datasets)
 ## Step 2. Detect Humans
 ## Step 3. Detect Dogs
 ## Step 4. Create a CNN to Classify Dog Breeds (from Scratch)
@@ -12,7 +15,7 @@ The project is divided into eight steps.
 ## Step 8. Test the Algorithm
 
 
-## Step 1. Import Datasets
+### Step 1. Import Datasets <a name="Step 1. Import Datasets"></a>
 The data is imported as a dataset of dog photos in the first stage. The data set is divided into three categories using the scikit-learn library's load-files function: train-files, valid-files, test-files, which are numpy arrays containing image file paths, and train-targets, valid-targets and test-targets, which are numpy arrays containing on-hot-encoded classification labels for 133 different dog breeds. And in the following, a dataset of human images is imported where the file paths are stored in the numpy array named human-files.
 
 ## Step 2. Detect Humans
