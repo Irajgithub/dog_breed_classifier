@@ -3,12 +3,19 @@ This work is a capstone project for the Udacity Data Science Nano Degree. A Conv
 The project is divided into eight steps.
 
 [Step 1. Import Datasets](#Step-1)
+
 [Step 2. Detect Humans](#Step-2)
+
 [Step 3. Detect Dogs](#Step-3)
+
 [Step 4. Create a CNN to Classify Dog Breeds (from Scratch)](#Step-4)
+
 [Step 5. Use a CNN to Classify Dog Breeds (using Transfer Learning)](#Step-5)
+
 [Step 6. Create a CNN to Classify Dog Breeds (using Transfer Learning)](#Step-6)
+
 [Step 7. Write the Algorithm](#Step-7)
+
 [Step 8. Test the Algorithm](#Step-8)
 
 
