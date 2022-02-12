@@ -1,5 +1,5 @@
 ## dog breed classifier
-This work is a capstone project for the Udacity Data Science Nano Degree. A Convolutional Neural Networks (CNN) is trained to create an algorithm for recognizing a dog's breed from an input image. This classifier method determines if a dog or a human is present in the image, then distinguishes the dog's breed if a dog is there and returns the resembling dog breed for that person if a human is detected. Isn't that amusing!?
+This work is a capstone project for the Udacity Data Science Nano Degree. A Convolutional Neural Network (CNN) is trained to create an algorithm for recognizing a dog's breed from an input image. This classifier method determines if a dog or a human is present in the image, then distinguishes the dog's breed if a dog is there and returns the resembling dog breed for that person if a human is detected. Isn't that amusing!?
 The project is divided into eight steps.
 
 [Step 1. Import Datasets](#Step-1)
@@ -53,13 +53,13 @@ The model in this step shows accuracy around 84% on the test set
 
 
 ### Step 7. Write the Algorithm<a name="Step-7"></a>
-An algorithm is assembled here to accepts a file path to an image and first determines whether the image contains a human, dog, or neither. Then,
+An algorithm is assembled here to accept a file path to an image and first determines whether the image contains a human, dog, or neither. Then,
 
 •	if a dog is detected in the image, return the predicted breed.
 
 •	if a human is detected in the image, return the resembling dog breed.
 
-•	if neither is detected in the image, provide output that indicates an error.
+•	if neither is detected in the image, provide an output that indicates an error.
 
 ### Step 8. Test the Algorithm<a name="Step-8"></a>
 In this section, the algorithm is tested on some random images to see how it works. It appears that the model is unable to distinguish humans well. For that, we'll need to create a model and feed the model with a lot of data, including images of people from various perspectives. The model does a decent job at distinguishing dogs and their breeds. It is not confused with cats, which is a good thing. Another issue with the model is that it does not operate with drawings, which may be addressed by training the model using data that includes drawing pictures.
